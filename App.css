@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container{
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+.form{
+  display: flex;
+  height: 768px;
+  width: 1336px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(#2443, #1d1d1d);
+}
+
+.container-input-label{
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.children-container-input-label{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.button{
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 30%;
+  justify-content: center;
+}
+
+.input-label{
+  border-radius: 5px;
+  border-color: blue;
+  font-size: 16px;
+  padding: 10px;
+  margin: 20px;
+  width: 250px;
+}
+
+.peso{
+  border-radius: 5px;
+  border-color: blue;
+  font-size: 16px;
+  padding: 10px;
+  width: 250px;
+}
+
+.imc-table {
+  width: 100%; 
+  border-collapse: collapse; 
+  margin-top: 20px; 
+  background-image: linear-gradient(#2443, #1d1d1d);
+}
+
+.imc-table th, .imc-table td {
+  border: 1px solid #ddd; 
+  padding: 12px; 
+  text-align: left; 
+}
+
+.imc-table th {
+  font-weight: bold; 
+}
+
+.imc-table tr:hover {
+  background-color: #ddd;
+}
